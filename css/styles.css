@@ -9,8 +9,6 @@ body {
 
 }
 
-
-
 .sec-menu {
   background-color: #2e2f42;
   width: 1440px;
@@ -27,4 +25,16 @@ body {
   border-radius: 4px;
   background: #4D5AE5;
   box-shadow: 0px 4px 4px 0px rgba;
+
+  margin-top: 356px;
+  margin-bottom: 188px;
+  margin-left: 636px;
+  margin-right: 635px;
+}
+
+.text-sct {
+    margin-top: 120px;
+    margin-left: 156px;
+    margin-right: 1020px;
+    margin-bottom: 120px;
 }
