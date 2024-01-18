@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+.menu {
+    text-align: center;
+
+}
+
+
+
+.sec-menu {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 188px;
+  margin-bottom: 292px;
+}
+
+.button {
+  border-radius: 4px;
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px 0px rgba;
+}
