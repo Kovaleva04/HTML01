@@ -19,15 +19,13 @@ body {
 }
 
 .link-studio {
+    text-decoration: none;
+    color: #2E2F42;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.link-studio .link:hover,
-.link-studio .link:focus {
-    color: #404bbf;
+    letter-spacing: 0.32px;
+    font-style: normal;
 }
 
 .link-hdr {
@@ -35,6 +33,7 @@ body {
 }
 
 .link-hdr .link:hover,
+.link-hdr .link-hdr:active,
 .link-hdr .link:focus {
     color: #404bbf;
 }
