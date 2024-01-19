@@ -90,21 +90,22 @@ body {
     background-color: #2e2f42;
 }
 
-.btn-btn .link:hover,
-.btn-btn .link:active, 
-.btn-btn .link:focus {
-    background-color: #404bbf;
+.btn-btn {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
 }
 
-.btn-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px; 
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #404BBF; 
-    cursor: pointer;
+.btn-btn:hover,
+.btn-btn:active,
+.btn-btn:focus {
+    background-color: #404BBF;
 }
 
 .list-str {
