@@ -35,6 +35,11 @@ body {
     background-color: #2e2f42;
 }
 
+.btn-btn .link:hover,
+.btn-btn .link:focus {
+    background-color: #404BBF;
+}
+
 .btn-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -87,6 +92,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.list-one {
+    background-color: #ffffff;
 }
 
 
