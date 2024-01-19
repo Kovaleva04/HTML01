@@ -14,6 +14,37 @@ body {
     color: #4d5ae5;
 }
 
+.logo-st {
+    color: #2e2f42;
+}
+
+.link-studio {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.link-studio .link:hover,
+.link-studio .link:focus {
+    color: #404BBF;
+}
+
+.linl-ad {
+    font-style: normal;
+}
+
+.link-tel {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.link-tel .link:hover,
+.link-tel .link:focus {
+    color: #404BBF;
+}
+
 .std-menu {
     color: #2e2f42;
 }
@@ -86,6 +117,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .p-one {
