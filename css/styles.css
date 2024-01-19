@@ -49,6 +49,11 @@ body {
     font-style: normal;
 }
 
+.link-tel .link:hover,
+.link-tel .link:focus {
+    color: #404BBF;
+}
+
 .mail-item {
     font-size: 16px;
     letter-spacing: 0.02em;
