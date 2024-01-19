@@ -98,7 +98,10 @@ body {
     background-color: #ffffff;
 }
 
-
+.foor-item {
+    background-color: #2e2f42;
+    
+}
 
 .web-foot {
     font-family: "Raleway", sans-serif;
