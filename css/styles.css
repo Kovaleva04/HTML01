@@ -34,14 +34,14 @@ body {
     color: #2e2f42;
 }
 
-.link-hdr .link:hover,
-.link-hdr .link:focus {
+.link-hdr:hover,
+.link-hdr:focus {
     color: #404bbf;
 }
 
-.link-studio:hover,
-.link-studio:focus,
-.link-studio:active {
+.link-studio .link:hover,
+.link-studio .link:focus,
+.link-studio .link:active {
     color: #404bbf;
 }
 
