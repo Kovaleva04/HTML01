@@ -30,12 +30,14 @@ body {
 }
 
 .link-hdr .link:hover,
-.link-hdr .link:focus {
+.link-hdr .link:focus,
+.link-hdr .link:active {
     color: #404bbf;
 }
 
 .link-studio .link:hover,
-.link-studio .link:focus {
+.link-studio .link:focus,
+.link-studio .link:active {
     color: #404bbf;
 }
 
