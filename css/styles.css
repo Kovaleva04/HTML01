@@ -25,12 +25,17 @@ body {
     color: #2e2f42;
 }
 
+.link-studio .link:hover,
+.link-studio .link:focus {
+    color: #404bbf;
+}
+
 .link-hdr {
     color: #2e2f42;
 }
 
-.link-hdr:hover,
-.link-hdr:focus {
+.link-hdr .link:hover,
+.link-hdr .link:focus {
     color: #404bbf;
 }
 
