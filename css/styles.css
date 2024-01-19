@@ -58,7 +58,7 @@ body {
 }
 
 .mail-item .link:hover,
-.mail-item .link:focus
+.mail-item .link:focus,
 .mail-item .link:active {
     color: #404bbf;
 }
