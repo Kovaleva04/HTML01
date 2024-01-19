@@ -31,28 +31,28 @@ body {
 
 .link-hdr .link:hover,
 .link-hdr .link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .link-studio .link:hover,
 .link-studio .link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .link-ad {
     font-style: normal;
 }
 
-.link-tel {
+.mail-item {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
 }
 
-.link-tel .link:hover,
-.link-tel .link:focus {
-    color: #404BBF;
+.mail-item .link:hover,
+.mail-item .link:focus {
+    color: #404bbf;
 }
 
 .std-menu {
@@ -78,7 +78,7 @@ body {
 
 .btn-btn .link:hover,
 .btn-btn .link:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 .btn-btn {
@@ -152,4 +152,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
+}
+
+.logo-stf {
+    color: #f4f4fd;
+}
+
+.foor-page {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
