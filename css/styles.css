@@ -39,9 +39,9 @@ body {
     color: #404bbf;
 }
 
-.link-studio .link:hover,
-.link-studio .link:focus,
-.link-studio .link:active {
+.link-studio:hover,
+.link-studio:focus,
+.link-studio:active {
     color: #404bbf;
 }
 
