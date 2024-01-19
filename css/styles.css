@@ -27,7 +27,7 @@ body {
 
 .link-studio .link:hover,
 .link-studio .link:focus {
-    color: #2e2f42;
+    color: #404bbf;
 }
 
 .link-hdr {
@@ -58,7 +58,8 @@ body {
 }
 
 .mail-item .link:hover,
-.mail-item .link:focus {
+.mail-item .link:focus
+.mail-item .link:active {
     color: #404bbf;
 }
 
@@ -84,7 +85,8 @@ body {
 }
 
 .btn-btn .link:hover,
-.btn-btn .link:focus {
+.btn-btn .link:focus,
+.btn-btn .link:active {
     background-color: #404bbf;
 }
 
