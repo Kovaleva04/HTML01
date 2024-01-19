@@ -35,8 +35,7 @@ body {
 }
 
 .link-hdr .link:hover,
-.link-hdr .link:focus,
-.link-hdr .link:active {
+.link-hdr .link:focus {
     color: #404bbf;
 }
 
