@@ -25,12 +25,21 @@ body {
     color: #2e2f42;
 }
 
+.link-hdr {
+    color: #2e2f42;
+}
+
+.link-hdr .link:hover,
+.link-hdr .link:focus {
+    color: #404BBF;
+}
+
 .link-studio .link:hover,
 .link-studio .link:focus {
     color: #404BBF;
 }
 
-.linl-ad {
+.link-ad {
     font-style: normal;
 }
 
@@ -38,6 +47,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
+    line-height: 1.5;
 }
 
 .link-tel .link:hover,
@@ -132,7 +142,6 @@ body {
 
 .foor-item {
     background-color: #2e2f42;
-
 }
 
 .web-foot {
