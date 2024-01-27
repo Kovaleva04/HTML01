@@ -23,11 +23,6 @@ body {
     width: 264px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 ul, ol {
     list-style: none;
     margin: 0;
@@ -92,11 +87,8 @@ ul, ol {
 }
 
 .list-top {
-    list-style-type: none;
     display: flex;
     gap: 24px;
-    padding: 156px;
-    padding-top: 120px;
 }
 
 .list-pt {
@@ -162,6 +154,9 @@ ul, ol {
 
 .sec-item {
     font-size: 56px;
+    font-weight: 700;
+    box-sizing: content-box;
+    margin: 0 auto 48px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -171,7 +166,7 @@ ul, ol {
 
 .one-item {
     background-color: #2e2f42;
-    width: 1440px;
+    width: 100%;
     height: 600px;
     padding: 188px 0;
 }
@@ -203,13 +198,6 @@ img {
     display: block;
 }
 
-button {
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
 .btn-btn:hover,
 .btn-btn:active,
 .btn-btn:focus {
@@ -227,6 +215,17 @@ button {
     margin-bottom: 8px;
 }
 
+.list-four {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style-type: none;
+    text-align: start;
+    margin-bottom: 8px;
+}
+
 .sct-thr {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -238,6 +237,13 @@ button {
 }
 
 .port-item {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
     margin-bottom: 72px;
 }
 
@@ -282,7 +288,7 @@ button {
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
 
@@ -291,6 +297,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+    text-align: start;
 }
 
 .list-one {
