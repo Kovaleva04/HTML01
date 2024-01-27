@@ -10,11 +10,14 @@ body {
 
 .header-container {
   display: flex;
-  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+    width: 1158px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -53,16 +56,13 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     letter-spacing: 0.32px;
     display: block;
+    padding: 24px 0;
 }
 
 .link-hdr .link:hover,
 .link-hdr .link-hdr:active,
 .link-hdr .link:focus {
     color: #404bbf;
-}
-
-.link-studio {
-    padding: 24px 0;
 }
 
 .link-studio .link:hover,
@@ -87,6 +87,21 @@ h1, h2, h3, h4, h5, h6, p {
 
 .list-pt {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.ban-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.list-port {
+    width: calc((100% - 48px) / 3);
 }
 
 .list-adr {
@@ -198,7 +213,15 @@ button {
 .sct-thr {
     background-color: #f4f4fd;
     padding: 120px 0;
+}
 
+.sec-fr {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.port-item {
+    margin-bottom: 72px;
 }
 
 .team-item {
@@ -228,7 +251,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    
+
 }
 
 .p-one {
