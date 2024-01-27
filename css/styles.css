@@ -4,6 +4,10 @@ body {
     background-color: #fff;
 }
 
+.top-item {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   width: 1158px;
@@ -163,8 +167,8 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 120px 0;
 }
 
-.visually-hidden {
-    
+img {
+    display: block;
 }
 
 button {
@@ -231,6 +235,7 @@ button {
 
 .foot-item {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .web-foot {
@@ -242,6 +247,8 @@ button {
     text-transform: uppercase;
     color: #4d5ae5; 
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-stf {
@@ -252,4 +259,5 @@ button {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
