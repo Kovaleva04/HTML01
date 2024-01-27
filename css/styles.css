@@ -23,6 +23,10 @@ body {
   margin: 0 auto;
 }
 
+.text-sct {
+    flex-basis: calc((100% - 3 * 24px) / 4)
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     margin-bottom: 0;
@@ -270,7 +274,7 @@ button {
 .list-one {
     background-color: #ffffff;
     list-style-type: none;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
