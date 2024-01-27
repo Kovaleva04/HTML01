@@ -4,6 +4,26 @@ body {
     background-color: #fff;
 }
 
+.header-container {
+  display: flex;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: start;
+}
+
 .web-menu {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -12,24 +32,21 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .logo-st {
     color: #2e2f42;
 }
 
-.link-studio {
+.link-hdr {
+    color: #2e2f42;
     text-decoration: none;
-    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    font-style: normal;
-}
-
-.link-hdr {
-    color: #2e2f42;
+    display: block;
 }
 
 .link-hdr .link:hover,
@@ -46,6 +63,27 @@ body {
 
 .link-ad {
     font-style: normal;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.list-top {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    padding: 156px;
+    padding-top: 120px;
+}
+
+.list-pt {
+    list-style-type: none;
+}
+
+.list-adr {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .mail-item {
@@ -74,8 +112,10 @@ body {
 }
 
 .menu {
-    text-align: center;
-
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 .sec-item {
@@ -84,10 +124,16 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    padding-left: 472px;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-right: 472px;
 }
 
 .one-item {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
 }
 
 .btn-btn {
@@ -100,6 +146,16 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+button {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .btn-btn:hover,
@@ -114,6 +170,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    list-style-type: none;
 }
 
 .sct-thr {
@@ -135,6 +192,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    list-style-type: none;
 }
 
 .dsg-pr {
@@ -152,6 +210,7 @@ body {
 
 .list-one {
     background-color: #ffffff;
+    list-style-type: none;
 }
 
 .foot-item {
@@ -166,6 +225,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
+    text-decoration: none;
 }
 
 .logo-stf {
