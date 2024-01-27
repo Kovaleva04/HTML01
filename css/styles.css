@@ -191,10 +191,14 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     list-style-type: none;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .sct-thr {
     background-color: #f4f4fd;
+    padding: 120px 0;
+
 }
 
 .team-item {
@@ -204,6 +208,7 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .list-team {
@@ -213,6 +218,8 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 
 .dsg-pr {
@@ -220,6 +227,8 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
+    
 }
 
 .p-one {
@@ -231,6 +240,12 @@ button {
 .list-one {
     background-color: #ffffff;
     list-style-type: none;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.mark-item {
+    padding: 32px 0;
 }
 
 .foot-item {
