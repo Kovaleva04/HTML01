@@ -19,8 +19,12 @@ body {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
-  align-items: baseline;
+}
+
+.container-f {
+    display: flex;
+    align-items: baseline;
+    margin-left: 156px;
 }
 
 .text-sct {
