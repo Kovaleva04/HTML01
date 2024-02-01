@@ -19,6 +19,8 @@ body {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
+  align-items: baseline;
 }
 
 .text-sct {
@@ -143,8 +145,7 @@ ul, ol {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-item:hover,
@@ -365,6 +366,24 @@ img {
 .foot-item {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.foot-cont {
+    margin-right: 120px;
+}
+
+.foot-info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.icon-list-foot {
+    display: flex;
+    gap: 16px;
 }
 
 .web-foot {
