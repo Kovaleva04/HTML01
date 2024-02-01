@@ -21,7 +21,6 @@ body {
 
 .text-sct {
     flex-basis: calc((100% - 3 * 24px) / 4);
-    width: 264px;
 }
 
 ul, ol {
@@ -40,6 +39,7 @@ ul, ol {
 .link-tel {
     display: flex;
     align-items: center;
+    padding: 24px;
 }
 
 .web-menu {
@@ -106,7 +106,7 @@ ul, ol {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+
 }
 
 .list-port {
@@ -167,8 +167,6 @@ ul, ol {
 
 .one-item {
     background-color: #2e2f42;
-    width: 100%;
-    height: 600px;
     padding: 188px 0;
 }
 
@@ -188,6 +186,7 @@ ul, ol {
     min-width: 169px;
     height: 56px;
     border: none;
+    margin: auto;
 }
 
 .sec-ben {
@@ -223,7 +222,7 @@ img {
     color: #2e2f42;
     list-style-type: none;
     text-align: start;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .sct-thr {
@@ -276,7 +275,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-
+    margin: 0;
 }
 
 .visually-hidden {
@@ -311,6 +310,36 @@ img {
     padding: 32px 0;
 }
 
+.icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(88, 134, 234);
+  border-radius: 50%;
+}
+
+.icon-link:hover {
+    background-color: aqua;
+}
+
+.icon-item {
+  width: 40px;
+  height: 40px;
+}
+
+.icon.icon {
+  fill: transparent;
+  stroke: #FFFFFF;
+}
+
 .foot-item {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -338,4 +367,5 @@ img {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin: 0;
 }
