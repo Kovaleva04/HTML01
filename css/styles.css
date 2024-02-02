@@ -154,25 +154,29 @@ ul, ol {
     transform: translateY(0%);
 }
 
+.portfolio-img:hover .par-two {
+    transform: translateY(0);
+}
+
 .portfolio-img {
     position: relative;
     overflow: hidden;
 }
 
-
-.p-two {
+.par-two {
     position: absolute;
     top: 0;
-    font-style: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     padding: 40px 32px;
     background-color: #4d5ae5;
-    width: 100%;
     height: 100%;
+    width: 100%;
     transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0;
 }
 
 .list-adr {
