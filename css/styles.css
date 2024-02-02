@@ -26,10 +26,6 @@ body {
     margin-left: 156px;
 }
 
-p {
-    margin: 0;
-}
-
 .text-sct {
     color: #434455;
     font-size: 16px;
@@ -466,15 +462,6 @@ img {
     margin-right: 120px;
 }
 
-.footer-title {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
 .icon-list-foot {
     display: flex;
     gap: 16px;
@@ -494,7 +481,16 @@ img {
 }
 
 .footer-content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
     margin-bottom: 16px;
+}
+
+p {
+    margin: 0;
 }
 
 .logo-stf {
