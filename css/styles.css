@@ -199,7 +199,7 @@ ul, ol {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-item:hover,
@@ -418,6 +418,7 @@ img {
   background-color: rgb(88, 134, 234);
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link:hover,
@@ -428,7 +429,6 @@ img {
 .icon-item {
   width: 40px;
   height: 40px;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-icon {
