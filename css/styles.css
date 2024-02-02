@@ -136,6 +136,7 @@ ul, ol {
     row-gap: 48px;
     display: flex; 
     flex-wrap: wrap; 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .ban-app {
@@ -387,6 +388,7 @@ img {
     list-style-type: none;
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .list-port:hover .par-two {
@@ -438,7 +440,7 @@ img {
 
 .icon-link:hover,
 .icon-link:focus {
-    background-color: #404BBF;
+    background-color: #31d0aa;
 }
 
 .icon-item {
