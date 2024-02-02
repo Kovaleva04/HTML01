@@ -26,6 +26,10 @@ body {
     margin-left: 156px;
 }
 
+p {
+    margin: 0;
+}
+
 .text-sct {
     color: #434455;
     font-size: 16px;
@@ -489,6 +493,10 @@ img {
     margin-bottom: 16px;
 }
 
+.footer-content {
+    margin-bottom: 16px;
+}
+
 .logo-stf {
     color: #f4f4fd;
 }
@@ -499,5 +507,4 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
     margin: 0;
-    margin-bottom: 16px;
 }
