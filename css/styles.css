@@ -93,15 +93,20 @@ ul, ol {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-hdr::after {
+.link-hdr.current {
+    color: #404bbf;
+    position: relative;
+}
+
+.link-hdr.current::after {
     content: "";
-    width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
-    background-color: #404BBF;
+    background-color: var(--OCEAN, #404bbf);
     border-radius: 2px;
+    width: 100%;
 }
 
 .link-hdr .link:hover,
@@ -135,14 +140,17 @@ ul, ol {
     row-gap: 48px;
     display: flex; 
     flex-wrap: wrap; 
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .ban-app {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    width: 360px;
+}
 
+.ban-app:hover {
+    transform: translateY(0);
 }
 
 .list-port {
@@ -167,6 +175,7 @@ ul, ol {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
      0px 1px 1px rgba(46, 47, 66, 0.16),
      0px 2px 1px rgba(46, 47, 66, 0.08);
+     transform: translateY(0);
 }
 
 .par-two {
@@ -245,7 +254,7 @@ ul, ol {
   padding: 188px 0;
   margin: 0 auto;
   background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
-  url(../images/office-image.jpg);
+  url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -358,7 +367,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    margin: 0;
+    margin: 8px;
 }
 
 .visually-hidden {
@@ -391,10 +400,7 @@ img {
 }
 
 .list-pt :hover {
-    box-shadow: 0px 1px 6px rgba(46,47,66,0.08),
-    0px 1px 1px rgba(46,47,66,0.16), 0px 2px 1px rgba(46,47,66,0.08);
     transform: translateY(0);
-
 }
 
 .mark-item {
