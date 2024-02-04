@@ -57,12 +57,6 @@ ul, ol {
     justify-content: start;
 }
 
-.link-tel {
-    display: flex;
-    align-items: center;
-    padding: 24px;
-}
-
 .web-menu {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -89,7 +83,6 @@ ul, ol {
     display: block;
     padding: 24px 0;
     position: relative;
-    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -172,10 +165,16 @@ ul, ol {
 }
 
 .list-port:hover .par-two {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
      0px 1px 1px rgba(46, 47, 66, 0.16),
      0px 2px 1px rgba(46, 47, 66, 0.08);
      transform: translateY(0);
+}
+
+.list-port:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .par-two {
@@ -209,6 +208,8 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.32px;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px;
+    display: flex;
 }
 
 .mail-item:hover,
@@ -304,6 +305,7 @@ img {
     list-style-type: none;
     text-align: center;
     margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .list-four {
@@ -315,6 +317,7 @@ img {
     list-style-type: none;
     text-align: start;
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .sct-thr {
@@ -335,6 +338,7 @@ img {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
+    margin: 0;
     margin-bottom: 72px;
 }
 
@@ -345,6 +349,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin: 0;
     margin-bottom: 72px;
 }
 
@@ -367,7 +372,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    margin: 8px;
+    margin-bottom: 8px;
 }
 
 .visually-hidden {
