@@ -612,12 +612,15 @@ p {
 
 .button-modal :hover,
 .button-modal :focus  {
+    background-color: #404bbf;
     border: none;
-    background-color: #404BBF;
     fill: #ffffff;
 }
 
-.button-modal .modal-icon :hover,
+.button-modal .modal-icon :hover {
+    fill: #ffffff;
+}
+
 .button-modal .modal-icon :focus {
     fill: #ffffff;
 }
