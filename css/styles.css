@@ -614,10 +614,11 @@ p {
 .button-modal :focus  {
     border: none;
     background-color: #404BBF;
+    fill: #ffffff;
 }
 
-.button-modal :hover > .input-icon,
-.button-modal :focus > .input-icon {
+.button-modal .modal-icon :hover,
+.button-modal .modal-icon :focus {
     fill: #ffffff;
 }
 
