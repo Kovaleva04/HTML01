@@ -709,7 +709,7 @@ p {
     background-color: transparent;
 }
 
-.textarea-modal:focus {
+.textarea-modal :focus {
     border-color: #4d5a5e;
 }
 
