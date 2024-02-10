@@ -706,6 +706,7 @@ p {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
 }
 
 .textarea-modal:focus {
@@ -744,8 +745,7 @@ p {
 }
 
 .link-modal {
-    color: #404bbf;
-    text-decoration: underline;
+    color: #4d5a5e;
 }
 
 .button-check {
