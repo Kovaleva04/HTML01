@@ -44,6 +44,7 @@ body {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    width: 100%;
 }
 
 ul, ol {
@@ -241,7 +242,8 @@ ul, ol {
 }
 
 .sec-item {
-    font-size: 56px;
+   /* font-size: 56px;*/
+   font-size: 36px;
     font-weight: 700;
     box-sizing: content-box;
     margin: 0 auto 48px;
@@ -812,5 +814,9 @@ placeholder {
 
     .list-port {
         width: calc((100% - 24px) / 2);
+    }
+
+    .sec-item {
+        font-size: 56px;
     }
 }
