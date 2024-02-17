@@ -121,6 +121,7 @@ ul, ol {
     font-style: normal;
     text-decoration: none;
     list-style-type: none;
+    display: none;
 }
 
 .list-top {
@@ -236,7 +237,7 @@ ul, ol {
 .menu {
     text-decoration: none;
     list-style-type: none;
-    display: flex;
+    display: none;
     gap: 40px;
     align-items: center;
 }
@@ -260,8 +261,8 @@ ul, ol {
   height: 600px;
   padding: 188px 0;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
-  url(../images/people-office.jpg);
+  /*background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
+  url(../images/people-office.jpg);*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -276,7 +277,7 @@ ul, ol {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    /*letter-spacing: 0.64px;*/
     border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -797,6 +798,93 @@ placeholder {
     background-color: #404BBF;
 }
 
+.button-header {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.mob-menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.button-menu {
+    width: 24px;
+    height: 24px;
+    margin: 24px 24px 24px 272px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.cross-menu {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-list-mobile {
+    margin-bottom:  16px;
+    display: flex;
+    gap: 40px;
+    margin-left: 16px;
+    margin-bottom: 40px;
+}
+
+.link-header-one {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;
+}
+
+.link-header-st {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+    text-decoration: none;
+}
+
+.mobile-list {
+    margin-top: 72px;
+    margin-left: 16px;
+}
+
+.mail-mob {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: flex;
+    padding: 24px;
+}
+
+.link-menu {
+    padding: 24px;
+}
+
+.current {
+    color: #404BBF;
+}
+
+.list-mob {
+    margin-bottom: 48px;
+    margin-top: 168px;
+}
 
 /**MEDIA*/
   
@@ -841,7 +929,9 @@ placeholder {
     }
     
     .sec-item {
-        font-size: 56px;
+        font-size: 36px;
+        width: 216px;
+        margin-bottom: 72px;
     }
 
     .benefits-item {
@@ -862,7 +952,43 @@ placeholder {
         text-align: center;
         margin-bottom: 8px;
     }
+
+    .p-one {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .btn-btn {
+        letter-spacing: 0.04em;
+    }
+
+    .one-item {
+        background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
+        url(../images/Dark-bg.jpg);
+    }
+
+    .top-item {
+        width: 320px;
+        height: 56px;
+    }
+ 
+    .button-header {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .web-menu {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
 }
+
+               /*1158*/
 
 @media screen and (min-width: 1158px) {
     .sct-thr {
