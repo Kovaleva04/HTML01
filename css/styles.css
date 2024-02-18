@@ -11,16 +11,18 @@ body {
 }
 
 .header-container {
+    max-width: 320px;
     display: flex;
 }
 
-.container {
-  /*width: 1158px;*/
-  width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin: 0 auto;
-}
+  .container {
+    /*width: 1158px;*/
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .container-f {
     display: flex;
@@ -601,12 +603,6 @@ p {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-
 .button-modal {
     position: absolute;
     top: 24px;
@@ -814,7 +810,8 @@ placeholder {
 .button-menu {
     width: 24px;
     height: 24px;
-    margin: 24px 24px 24px 272px;
+    top: 24px;
+    right: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     position: absolute;
@@ -822,7 +819,18 @@ placeholder {
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.mob-menu .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .cross-menu {
@@ -858,8 +866,7 @@ placeholder {
 }
 
 .mobile-list {
-    margin-top: 72px;
-    margin-left: 16px;
+    margin-bottom: auto;
 }
 
 .mail-mob {
@@ -881,51 +888,28 @@ placeholder {
     color: #404BBF;
 }
 
-.list-mob {
-    margin-bottom: 48px;
-    margin-top: 168px;
+.soc-list {
+    margin-bottom: 40px;
+    margin-right: 24px;
+    margin-left: 16px;
 }
 
 /**MEDIA*/
-  
-@media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding-left: 16px;
-        padding-right: 16px;
-}
-
-    .list-pt {
-        column-gap: 24px;
-        row-gap: 72px;
-}
-
-    .list-port {
-        width: calc((100% - 24px) / 2);
-    }
-
-    .list-team {
-        display: flex;
-    }
-
-    .list-one {
-        width: calc((100%-24px) / 2);
-    }
-
-    .list-one:not(:last-child) {
-        margin-bottom: 0;
-    }
-
-    .mark-item {
-        margin-top: 32px;
-    }
-
-}
 
 
+        /*-----------320-----------*/
 @media screen and (min-width: 320px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .header-container {
+        max-width: 320px;
+        }
+
     .top-item {
         width: 320px;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
 
     .list-team {
@@ -1101,11 +1085,43 @@ placeholder {
         margin-top: 168px;
         margin-bottom: 48px;
     }
+
+    .icon-list-mobile {
+        margin-bottom: 40px;
+        margin-left: 16px;
+        margin-right: 24px;
+    }
 }
 
-               /*1158*/
+            /*---------768----------*/
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .header-container {
+        max-width: 768px;
+    }
+
+    .mobile-list {
+        display: flex;
+    }   
+    
+} 
+
+            /*----------1158--------*/
 
 @media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+
+    .header-container {
+        max-width: 1158px;
+    }
+
     .sct-thr {
         padding: 120px 0;
     }
