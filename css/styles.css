@@ -525,10 +525,6 @@ p {
     margin: 0;
 }
 
-.footer-mod {
-    /*margin-left: auto;*/
-}
-
 .footer-p-mod {
     margin-bottom: 16px;
     font-weight: 500;
@@ -536,11 +532,6 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-}
-
-.footer-form {
-   /* display: flex;
-    gap: 24px;*/
 }
 
 .footer-input {
@@ -596,7 +587,8 @@ p {
 }
 
 .modal {
-    width: 408px;
+   /* width: 408px;*/
+    width: 288px; 
     min-height: 584px;
     background: #fcfcfc;
     border-radius: 4px;
@@ -838,11 +830,9 @@ placeholder {
 }
 
 .icon-list-mobile {
-    margin-bottom:  16px;
     display: flex;
     gap: 40px;
-    margin-left: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
 }
 
 .address-menu {
@@ -1042,9 +1032,16 @@ placeholder {
         margin-bottom: 72px;
     }
 
+    .icon-list-foot {
+        width: 208px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
     .footer-p-mod {
-        margin-right: 96px;
-        margin-left: 96px;
+        display: flex;
+        justify-content: center;
     }
 
     .list-para {
@@ -1058,7 +1055,47 @@ placeholder {
     }
 
     .button-footer {
-        margin: 16px 78px 96px 77px;
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    .footer-form {
+        justify-content: center;
+        margin-left: 16px;
+    }
+
+    .form-modal {
+        width: 256px;
+        height: 58px;
+        display: block;
+    }
+
+    .list-modal {
+        width: 256px;
+    }
+
+    .backdrop {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+
+    .modal {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .is-open {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .address-menu {
+        margin-top: 168px;
+        margin-bottom: 48px;
     }
 }
 
