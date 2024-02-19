@@ -124,6 +124,7 @@ ul, ol {
     text-decoration: none;
     list-style-type: none;
     display: none;
+    margin-left: auto;
 }
 
 .list-top {
@@ -1100,16 +1101,139 @@ placeholder {
         max-width: 768px;
     }
 
+    .top-item {
+        width: 768px;
+        height: 72px;
+    }
+
     .header-container {
         max-width: 768px;
     }
 
     .mobile-list {
         display: flex;
-    }   
+    }  
     
-} 
+    .one-item {
+        background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
+        url(../images/Dark-planshet-bg.png);
+    }
 
+    .sec-item {
+        width: 496px;
+        height: 119px;
+        font-size: 56px;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    .header-nav {
+        margin-bottom: 24px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .btn-btn {
+        margin-top: 36px;
+    }
+
+    .list-port {
+        column-gap: 24px;
+        flex-basis: calc((100% - 3 * 24px) / 2)
+    }
+
+    .portfolio-img {
+        width: 360px;
+    }
+
+    .footer-mod {
+        width: 453px;
+        height: 80px;
+    }
+
+    .footer-p-mod {
+        justify-content: start;
+    }
+
+    .link-ad {
+        display: block;
+    }
+
+    .par-two {
+        width: 360px;
+    }
+
+    .web-foot {
+        margin-left: 108px;
+    }
+
+    .foot-page {
+        margin-left: 108px;
+        font-weight: 400;
+        font-size: 16px;
+        width: 264px;
+    }
+
+    .foot-ic {
+        margin-left: auto;
+        width: 208px;
+        height: 40px;
+        margin-top: auto;
+    }
+
+    .footer-content {
+        margin-top: auto;
+    }
+
+    .footer-form {
+        margin-left: 108px;
+        margin-bottom: 96px;
+    }
+
+    .footer-p-mod {
+        margin-left: 108px;
+    }
+
+    .button-footer {
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+    }
+
+    .backdrop {
+        position: fixed;
+    }
+
+    .modal {
+        width: 408px;
+        height: 584px;
+    }
+
+    .form-modal {
+        margin-bottom: 8px;
+        width: 360px;
+        height: 58px;
+    }
+
+    .list-modal {
+        width: 360px;height: 138px;
+    }
+
+    .sec-ben {
+        height: 504px;
+    }
+
+    .text-sct {
+        width: 356px;
+        height: 120px;
+    }
+}
             /*----------1158--------*/
 
 @media screen and (min-width: 1158px) {
