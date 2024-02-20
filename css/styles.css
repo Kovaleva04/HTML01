@@ -211,14 +211,15 @@ ul, ol {
 .mail-item {
     text-decoration: none;
     color: #434455;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-top: 24px;
-    padding-bottom: 24px;
     display: flex;
+    /* padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;*/
 }
 
 .mail-item:hover,
@@ -411,7 +412,7 @@ img {
 .list-one {
     background-color: #ffffff;
     list-style-type: none;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+   /* flex-basis: calc((100% - 3 * 24px) / 4); */
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -930,6 +931,7 @@ placeholder {
 
     .text-sct {
         width: calc((100% - 36px) / 4);
+        margin-top: 72px;
     }
 
     .list-top {
@@ -973,9 +975,13 @@ placeholder {
         margin-bottom: 16px;
     }
 
-    .web-menu {
-        margin-top: 16px;
-        margin-bottom: 16px;
+    .list-one {
+        flex-basis: calc((100% - 3 * 36px) / 2);
+        width: 264px;
+    }
+
+    .sec-ben {
+        padding: 96px 0;
     }
 
     .list-pt {
@@ -1107,6 +1113,7 @@ placeholder {
     }
 
     .header-container {
+        align-items: center;
         max-width: 768px;
     }
 
@@ -1129,10 +1136,6 @@ placeholder {
         display: none;
     }
 
-    .header-nav {
-        margin-bottom: 24px;
-    }
-
     .menu {
         display: flex;
         gap: 40px;
@@ -1146,6 +1149,28 @@ placeholder {
     .list-port {
         column-gap: 24px;
         flex-basis: calc((100% - 3 * 24px) / 2)
+    }
+
+    .list-top {
+        display: flex;
+        flex-direction: row;
+        row-gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .list-para {
+        display: flex;
+        justify-content: start;
+    }
+
+    .p-one {
+        font-weight: 500;
+        width: 356px;
+        height: 72px;
+    }
+
+    .text-sct {
+         width: calc((100% - 72px) / 2);
     }
 
     .portfolio-img {
@@ -1187,13 +1212,13 @@ placeholder {
         margin-top: auto;
     }
 
-    .footer-content {
-        margin-top: auto;
-    }
-
     .footer-form {
         margin-left: 108px;
-        margin-bottom: 96px;
+        display: flex;
+    }
+
+    .footer-label {
+        margin-left: 108px;
     }
 
     .footer-p-mod {
@@ -1233,6 +1258,11 @@ placeholder {
         width: 356px;
         height: 120px;
     }
+
+    .list-adr {
+        flex-direction: column;
+        gap: 12px;
+    }
 }
             /*----------1158--------*/
 
@@ -1246,21 +1276,44 @@ placeholder {
         max-width: 1158px;
     }
 
-    .sct-thr {
-        padding: 120px 0;
+    .benefits-item {
+        display: flex;
     }
 
-    .list-pt {
-        column-gap: 24px;
+    .text-sct {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .list-para {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+    }
+
+    .p-one {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        width: 264px;
+        height: 72px;
+    }
+
+    .sec-ben {
+        width: 1128px;
+    }
+
+    .list-one {
+        flex-basis: calc((100% - 3 * 24px) / 4)
     }
 
     .list-port {
         width: calc((100% - 48px) / 3);
     }
 
-    .sec-fr {
-        padding-top: 120px;
-        padding-bottom: 120px;
+    .list-pt {
+        column-gap: 24px; 
+        width: 1128px;
     }
-
 }
