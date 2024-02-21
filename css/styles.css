@@ -71,7 +71,7 @@ ul, ol {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 76px;
+    padding: 16px 0;
 }
 
 .logo-st {
@@ -146,7 +146,7 @@ ul, ol {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    width: 360px;
+   /* width: 360px;*/
 }
 
 .ban-app:hover {
@@ -482,10 +482,6 @@ img {
     padding: 100px 0;
 }
 
-.foot-cont {
-    margin-right: 120px;
-}
-
 .icon-list-foot {
     display: flex;
     gap: 16px;
@@ -700,7 +696,6 @@ placeholder {
 }
 
 .list-modal {
-   display: block;
    margin-bottom: 16px;
 }
 
@@ -842,7 +837,6 @@ placeholder {
 .icon-list-mobile {
     display: flex;
     gap: 40px;
-    margin-bottom: 16px;
 }
 
 .address-menu {
@@ -868,7 +862,11 @@ placeholder {
 }
 
 .mobile-list {
-    margin-bottom: auto;
+    padding-top: 72px;
+}
+
+.link-menu {
+    margin-bottom: 40px;
 }
 
 .mail-mob {
@@ -879,22 +877,25 @@ placeholder {
     letter-spacing: 0.02em;
     color: #434455;
     display: flex;
-    padding: 24px;
 }
 
-.link-menu {
-    padding: 24px;
+.container-mobile {
+    padding-bottom: 40px;
+    padding-top: 24px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
 }
 
 .current {
     color: #404BBF;
 }
 
-.soc-list {
-    margin-bottom: 40px;
-    margin-right: 24px;
-    margin-left: 16px;
+.mail-mob.current {
+    margin-bottom: 24px;
 }
+
 
 /**MEDIA*/
 
@@ -902,7 +903,7 @@ placeholder {
         /*-----------320-----------*/
 @media screen and (min-width: 320px) {
     .container {
-        max-width: 768px;
+        max-width: 320px;
     }
 
     .header-container {
@@ -917,6 +918,7 @@ placeholder {
     .list-team {
         margin: 0 auto;
         justify-content: center;
+        gap: 72px;
     }
     
     .sec-item {
@@ -930,12 +932,20 @@ placeholder {
     }
 
     .text-sct {
-        width: calc((100% - 36px) / 4);
-        margin-top: 72px;
+        width: 100%;
+    }
+
+    .icon-list-mobile { 
+        margin-top: 43px;
+    }
+
+    .list-mob {
+        margin-top: 172px;
     }
 
     .list-top {
         flex-direction: column;
+        gap: 72px;
     }
 
     .list-four {
@@ -959,24 +969,19 @@ placeholder {
 
     .one-item {
         background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
-        url(../images/Dark-bg.jpg);
-    }
-
-    .top-item {
+        url(../images/1x-320.jpg);
+        padding-top: 62px;        
         width: 320px;
-        height: 56px;
+        height: 424px;
     }
  
     .button-header {
         background-color: transparent;
         border: none;
         box-shadow: none;
-        margin-top: 16px;
-        margin-bottom: 16px;
     }
 
     .list-one {
-        flex-basis: calc((100% - 3 * 36px) / 2);
         width: 264px;
     }
 
@@ -986,22 +991,20 @@ placeholder {
 
     .list-pt {
         justify-content: center;
-        gap: 48px;
+        gap: 72px 24px;
     }
 
     .list-port {
         width: 288px;
     }
 
-    .web-foot {
-        display: inline-block;
-        margin-right: 86px;
-        margin-left: 86px;
+    .list-team {
+        row-gap: 64px;
+        column-gap: 24px;
     }
 
-    .foot-cont {
-        width: 288px;
-        height: 112px;
+    .web-foot {
+        display: inline-block;
     }
 
     .container-f {
@@ -1019,7 +1022,7 @@ placeholder {
 
     .foot-ic {
         gap: 16px;
-        margin-bottom: 72px;
+        padding: 56px;
     }
 
     .icon-list-foot {
@@ -1030,6 +1033,10 @@ placeholder {
     }
 
     .footer-p-mod {
+        justify-content: center;
+    }
+
+    .footer-content {
         display: flex;
         justify-content: center;
     }
@@ -1042,29 +1049,18 @@ placeholder {
         letter-spacing: 0.02em;
         line-height: 1.2;
         color: #2e2f42;
+        margin-top: 0;
     }
 
     .button-footer {
         display: flex;
         justify-content: center;
-        margin-top: 16px;
     }
 
     .footer-form {
         justify-content: center;
-        margin-left: 16px;
     }
-
-    .form-modal {
-        width: 256px;
-        height: 58px;
-        display: block;
-    }
-
-    .list-modal {
-        width: 256px;
-    }
-
+    
     .backdrop {
         position: absolute;
         top: 0%;
@@ -1072,6 +1068,8 @@ placeholder {
     }
 
     .modal {
+        padding-left: 16px;
+        padding-right: 16px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(1);
@@ -1084,14 +1082,15 @@ placeholder {
     }
 
     .address-menu {
-        margin-top: 168px;
         margin-bottom: 48px;
     }
 
-    .icon-list-mobile {
-        margin-bottom: 40px;
-        margin-left: 16px;
-        margin-right: 24px;
+    .checkbox-label {
+        display: flex;
+    }
+
+    .span-label {
+        flex-shrink: 0;
     }
 }
 
@@ -1100,11 +1099,6 @@ placeholder {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-    }
-
-    .top-item {
-        width: 768px;
-        height: 72px;
     }
 
     .header-container {
@@ -1118,13 +1112,17 @@ placeholder {
     
     .one-item {
         background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
-        url(../images/Dark-planshet-bg.png);
+        url(../images/1x-768px.jpg);
+        width: 768px;
+        height: 417px;
+        padding-top: 120px;
     }
 
     .sec-item {
         width: 496px;
         height: 119px;
         font-size: 56px;
+        margin-bottom: 36px;
     }
 
     .button-header {
@@ -1143,25 +1141,28 @@ placeholder {
 
     .list-port {
         column-gap: 24px;
-        flex-basis: calc((100% - 3 * 24px) / 2);
+        flex-basis: calc((100% - 1 * 24px) / 2);
+        width: 356px;
+    }
+
+    .list-pt {
+        column-gap: 24px;
     }
 
     .list-top {
         display: flex;
         flex-direction: row;
-        row-gap: 24px;
+        row-gap: 72px;
+        column-gap: 24px;
         flex-wrap: wrap;
     }
 
     .list-para {
-        display: flex;
-        justify-content: start;
+        text-align: left;
     }
 
     .p-one {
         font-weight: 500;
-        width: 356px;
-        height: 72px;
     }
 
     .text-sct {
@@ -1169,12 +1170,7 @@ placeholder {
     }
 
     .portfolio-img {
-        width: 360px;
-    }
-
-    .footer-mod {
-        width: 453px;
-        height: 80px;
+        width: 356px;
     }
 
     .link-ad {
@@ -1185,37 +1181,19 @@ placeholder {
         width: 360px;
     }
 
-    .web-foot {
-        margin-left: 108px;
-    }
-
     .foot-page {
-        margin-left: 108px;
         font-weight: 400;
         font-size: 16px;
         width: 264px;
     }
 
-    .foot-ic {
-        width: 208px;
-        height: 40px;        
-    }
-
     .footer-form {
-        margin-left: 108px;
+       display: flex;
+       gap: 24px;
     }
 
     .footer-input {
         display: flex;
-    }
-
-    .footer-label {
-        margin-left: 108px;
-    }
-
-    .footer-p-mod {
-        justify-content: start;
-        margin-left: 108px;
     }
 
     .backdrop {
@@ -1225,6 +1203,8 @@ placeholder {
     .modal {
         width: 408px;
         height: 584px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .form-modal {
@@ -1234,16 +1214,8 @@ placeholder {
     }
 
     .list-modal {
-        width: 360px;height: 138px;
-    }
-
-    .sec-ben {
-        height: 504px;
-    }
-
-    .text-sct {
-        width: 356px;
-        height: 120px;
+        width: 360px;
+        height: 138px;
     }
 
     .list-adr {
@@ -1255,6 +1227,12 @@ placeholder {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: start;
+        padding-left: 108px;
+        gap: 72px 24px;
+    }
+
+    .web-menu {
+        margin-right: 76px;
     }
 }
             /*----------1158--------*/
@@ -1269,12 +1247,11 @@ placeholder {
         max-width: 1158px;
     }
 
-    .top-item {
-        width: 1158px;
-    }
-
     .benefits-item {
         display: flex;
+        border: 1px solid;
+        border-color: #8e8f99;
+        border-radius: 4px;
     }
 
     .text-sct {
@@ -1293,8 +1270,6 @@ placeholder {
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        width: 264px;
-        height: 72px;
     }
 
     .sec-ben {
@@ -1320,10 +1295,28 @@ placeholder {
     }
 
     .list-port {
-        flex-basis: calc((100% - 3 * 24px) / 3);
+        flex-basis: calc((100% - 2 * 24px) / 3);
     }
 
     .list-pt {
         column-gap: 24px; 
+    }
+
+    .portfolio-img {
+        width: 360px;
+    }
+
+    .container-f.container {
+        gap: 0;
+        padding-left: 0;
+    }
+
+    .foot-ic {
+       padding: 0;
+       margin-right: auto;
+    }
+
+    .foot-cont {
+        margin-right: 120px;
     }
 }
