@@ -405,7 +405,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
     text-align: start;
 }
 
@@ -861,10 +860,6 @@ placeholder {
     text-decoration: none;
 }
 
-.mobile-list {
-    padding-top: 72px;
-}
-
 .link-menu {
     margin-bottom: 40px;
 }
@@ -881,7 +876,7 @@ placeholder {
 
 .container-mobile {
     padding-bottom: 40px;
-    padding-top: 24px;
+    padding-top: 72px;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -896,6 +891,10 @@ placeholder {
     margin-bottom: 24px;
 }
 
+.soc-list {
+    margin-top: auto;
+}
+
 
 /**MEDIA*/
 
@@ -906,12 +905,7 @@ placeholder {
         max-width: 320px;
     }
 
-    .header-container {
-        max-width: 320px;
-        }
-
     .top-item {
-        width: 320px;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
 
@@ -937,10 +931,6 @@ placeholder {
 
     .icon-list-mobile { 
         margin-top: 43px;
-    }
-
-    .list-mob {
-        margin-top: 172px;
     }
 
     .list-top {
@@ -1004,7 +994,12 @@ placeholder {
     }
 
     .web-foot {
-        display: inline-block;
+        display: block;
+        text-align: center;
+    }
+
+    .footer-content {
+        text-align: center;
     }
 
     .container-f {
@@ -1012,6 +1007,8 @@ placeholder {
         flex-direction: column;
         justify-content: center;
         margin: auto;
+        gap: 72px;
+        align-items: center;
     }
 
     .foot-page {
@@ -1022,7 +1019,6 @@ placeholder {
 
     .foot-ic {
         gap: 16px;
-        padding: 56px;
     }
 
     .icon-list-foot {
@@ -1033,12 +1029,7 @@ placeholder {
     }
 
     .footer-p-mod {
-        justify-content: center;
-    }
-
-    .footer-content {
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
 
     .list-para {
@@ -1055,16 +1046,11 @@ placeholder {
     .button-footer {
         display: flex;
         justify-content: center;
+        margin-top: 16px;
     }
 
     .footer-form {
         justify-content: center;
-    }
-    
-    .backdrop {
-        position: absolute;
-        top: 0%;
-        right: 0%;
     }
 
     .modal {
@@ -1073,12 +1059,6 @@ placeholder {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(1);
-    }
-
-    .is-open {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
     }
 
     .address-menu {
@@ -1103,7 +1083,6 @@ placeholder {
 
     .header-container {
         align-items: center;
-        max-width: 768px;
     }
 
     .mobile-list {
@@ -1166,7 +1145,7 @@ placeholder {
     }
 
     .text-sct {
-         width: calc((100% - 72px) / 2);
+        width: calc((100% - 24px) / 2);
     }
 
     .portfolio-img {
@@ -1194,6 +1173,10 @@ placeholder {
 
     .footer-input {
         display: flex;
+    }
+
+    .footer-p-mod {
+        text-align: left;
     }
 
     .backdrop {
@@ -1243,15 +1226,15 @@ placeholder {
         padding: 0 15px;
     }
 
-    .header-container {
-        max-width: 1158px;
-    }
-
     .benefits-item {
         display: flex;
         border: 1px solid;
         border-color: #8e8f99;
         border-radius: 4px;
+    }
+
+    .one-item {
+        width: 1158px;
     }
 
     .text-sct {
@@ -1308,7 +1291,7 @@ placeholder {
 
     .container-f.container {
         gap: 0;
-        padding-left: 0;
+        padding-left: 15px;
     }
 
     .foot-ic {
