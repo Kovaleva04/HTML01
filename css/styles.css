@@ -262,7 +262,6 @@ ul, ol {
 .one-item {
     background-color: #2e2f42;
   max-width: 1440px;
-  height: 600px;
   padding: 188px 0;
   margin: 0 auto;
   /*background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
@@ -960,9 +959,8 @@ placeholder {
     .one-item {
         background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
         url(../images/1x-320.jpg);
-        padding-top: 62px;        
+        padding: 72 0;        
         width: 320px;
-        height: 424px;
     }
  
     .button-header {
@@ -1008,7 +1006,6 @@ placeholder {
         justify-content: center;
         margin: auto;
         gap: 72px;
-        align-items: center;
     }
 
     .foot-page {
@@ -1046,7 +1043,6 @@ placeholder {
     .button-footer {
         display: flex;
         justify-content: center;
-        margin-top: 16px;
     }
 
     .footer-form {
@@ -1093,8 +1089,7 @@ placeholder {
         background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
         url(../images/1x-768px.jpg);
         width: 768px;
-        height: 417px;
-        padding-top: 120px;
+        padding-top: 112 0;
     }
 
     .sec-item {
@@ -1179,6 +1174,14 @@ placeholder {
         text-align: left;
     }
 
+    .web-foot {
+        text-align: left;
+    }
+
+    .footer-content {
+        text-align: left;
+    }
+
     .backdrop {
         position: fixed;
     }
@@ -1234,7 +1237,10 @@ placeholder {
     }
 
     .one-item {
-        width: 1158px;
+        background-image: linear-gradient(rgba(46 47,66,0.7), rgba(46,47,66,0.7)),
+        url(../images/comp-office.jpg);
+        width: 1440px;
+        padding: 188 0;
     }
 
     .text-sct {
@@ -1301,5 +1307,12 @@ placeholder {
 
     .foot-cont {
         margin-right: 120px;
+    }
+    .web-foot {
+        text-align: left;
+    }
+
+    .footer-content {
+        text-align: left;
     }
 }
